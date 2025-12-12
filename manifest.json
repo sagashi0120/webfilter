@@ -1,0 +1,31 @@
+{
+	"manifest_version": 3,
+	"name": "__MSG_appTitle__",
+	"version": "1.0.0",
+	"description": "__MSG_appDesc__",
+	"default_locale": "ja",
+	"permissions": [
+		"declarativeNetRequest",
+		"declarativeNetRequestFeedback",
+		"storage",
+		"identity"
+	],
+	"oauth2": {
+		"client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+		"scopes": ["email","profile"]
+	},
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"background": {
+		"service_worker": "js/background.js"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"web_accessible_resources": [{
+		"resources": ["block.html"],
+		"matches": ["<all_urls>"]
+	}]
+}

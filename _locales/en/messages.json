@@ -1,0 +1,95 @@
+{
+	"appTitle": {
+		"message": "Simple Web Filter"
+	},
+	"appDesc": {
+		"message": "Filters the web."
+	},
+	"settingsOpen": {
+		"message": "Open Settings"
+	},
+	"settings": {
+		"message": "Settings"
+	},
+	"about": {
+		"message": "About this Extension"
+	},
+	"localDesc": {
+		"message": "Enter one domain or keyword per line to block."
+	},
+	"serverDesc": {
+		"message": "Enter the URL to synchronize block settings."
+	},
+	"aboutDesc": {
+		"message": "A simple web filtering extension.<br>Not as powerful as i-Filter, but..."
+	},
+	"blocked": {
+		"message": "Blocked"
+	},
+	"blockedDesc": {
+		"message": "This page has been filtered by the extension."
+	},
+	"local": {
+		"message": "Local"
+	},
+	"server": {
+		"message": "Server"
+	},
+	"save": {
+		"message": "Save Settings"
+	},
+	"reload": {
+		"message": "Reload"
+	},
+	"menu": {
+		"message": "Menu"
+	},
+	"statusServer": {
+		"message": "Synchronizing with server..."
+	},
+	"statusLocal": {
+		"message": "Filtering..."
+	},
+	"statusDefault": {
+		"message": "[!] Default state"
+	},
+	"statusError": {
+		"message": "[!] Error"
+	},
+	"saveDesc": {
+		"message": "Settings have been saved."
+	},
+	"urlError": {
+		"message": "Unknown URL format."
+	},
+	"sendServer": {
+		"message": "Send Server"
+	},
+	"sendServerDesc": {
+		"message": "Enter the server to which blocked URLs will be sent."
+	},
+	"blockedText": {
+		"message": "Blocked Type: $1"
+	},
+	"type_main_frame": {
+		"message": "Main page"
+	},
+	"type_sub_frame": {
+		"message": "Embedded frame"
+	},
+	"type_script": {
+		"message": "Script"
+	},
+	"type_image": {
+		"message": "Image"
+	},
+	"type_media": {
+		"message": "Media"
+	},
+	"type_websocket": {
+		"message": "WebSocket"
+	},
+	"type_xmlhttprequest": {
+		"message": "XHR / API request"
+	}
+}

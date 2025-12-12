@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title data-i18n="appTitle"></title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/options.css">
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/punycode.min.js"></script>
+		<script src="js/options.js"></script>
+		<script src="js/i18n.js"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<h2 data-i18n="menu"></h2>
+			<ul>
+				<li><a href="#settings" data-i18n="settings"></a></li>
+				<li><a href="#about" data-i18n="about"></a></li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<div class="root settings">
+				<h1 data-i18n="settings"></h1>
+				<div id="status"></div>
+
+				<h3 id="local" data-i18n="local"></h3>
+				<p data-i18n="localDesc"></p>
+				<textarea id="blockListInput"></textarea>
+
+				<h3 id="server" data-i18n="server"></h3>
+				<p data-i18n="serverDesc"></p>
+				<input type="text" id="blockUrlInput">
+				
+				<h3 id="sendServer" data-i18n="sendServer"></h3>
+				<p data-i18n="sendServerDesc"></p>
+				<input type="text" id="sendUrlInput">
+
+				<p>
+					<button id="saveButton" class="btn primary" data-i18n="save"></button>
+					<button id="reloadButton" class="btn warning" data-i18n="reload"></button>
+				</p>
+			</div>
+
+			<div class="root about">
+				<h1 data-i18n="about"></h1>
+				<p data-i18n="aboutDesc"></p>
+				<pre>(c) 2025 yu-., Ver 1.0.0</pre>
+			</div>
+		</div>
+	</body>
+</html>

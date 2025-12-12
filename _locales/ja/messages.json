@@ -1,0 +1,95 @@
+{
+	"appTitle": {
+		"message": "簡易ウェブフィルター"
+	},
+	"appDesc": {
+		"message": "ウェブをフィルタリングします。"
+	},
+	"settingsOpen": {
+		"message": "設定を開く"
+	},
+	"settings": {
+		"message": "設定"
+	},
+	"about": {
+		"message": "この拡張について"
+	},
+	"localDesc": {
+		"message": "ブロックしたいドメインやキーワードを1行に1つ入力してください。"
+	},
+	"serverDesc": {
+		"message": "ブロック設定を同期するURLを入力してください。"
+	},
+	"aboutDesc": {
+		"message": "簡易的なWeb フィルタリング拡張機能です。<br>i-Filterほどではないですが..."
+	},
+	"blocked": {
+		"message": "ブロックされました"
+	},
+	"blockedDesc": {
+		"message": "このページは、拡張機能によってフィルタリングされました。"
+	},
+	"local": {
+		"message": "ローカル"
+	},
+	"server": {
+		"message": "サーバー"
+	},
+	"save": {
+		"message": "設定を保存"
+	},
+	"reload": {
+		"message": "再読み込み"
+	},
+	"menu": {
+		"message": "メニュー"
+	},
+	"statusServer": {
+		"message": "サーバーと同期中..."
+	},
+	"statusLocal": {
+		"message": "フィルタリング中..."
+	},
+	"statusDefault": {
+		"message": "[!] デフォルト状態"
+	},
+	"statusError": {
+		"message": "[!] エラー"
+	},
+	"saveDesc": {
+		"message": "設定を保存しました。"	
+	},
+	"urlError": {
+		"message": "不明なURL形式です。"
+	},
+	"sendServer": {
+		"message": "送信サーバー"
+	},
+	"sendServerDesc": {
+		"message": "ブロックされたURLの送信サーバーを入力してください。"
+	},
+	"blockedText": {
+		"message": "ブロックタイプ: $1"
+	},
+	"type_main_frame": {
+		"message": "ページ本体"
+	},
+	"type_sub_frame": {
+		"message": "埋め込みフレーム"
+	},
+	"type_script": {
+		"message": "スクリプト"
+	},
+	"type_image": {
+		"message": "画像"
+	},
+	"type_media": {
+		"message": "メディア"
+	},
+	"type_websocket": {
+		"message": "WebSocket"
+	},
+	"type_xmlhttprequest": {
+		"message": "XHR / APIリクエスト"
+	}
+}

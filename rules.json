@@ -1,0 +1,13 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": {
+			"type": "allow"
+		},
+		"condition": {
+			"urlFilter": "dummy-url-for-init.com",
+			"resourceTypes": ["main_frame"]
+		}
+	}
+]
